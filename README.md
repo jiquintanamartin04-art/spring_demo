@@ -7,13 +7,6 @@ La demo usa:
 * JPA (para conseguir mayor nivel de abstracción sobre la base de datos)
 * Spring security para la gestión de la autenticación
 
-## Instalar
-
-1. Instalar eclipse 4.7
-2. Help->Marketplace e instalar "spring tools"
-3. Para facilitar la implementación del frontend se aconseja instalar "eclipse web developer" (http://www.eclipse.org/webtools/)
-4. Desde eclipse importar el proyecto. File->Import->Project y seleccionar "Import maven project"
-
 
 ## Ejecutar
 
@@ -30,6 +23,7 @@ La demo usa:
 * Parámetros de configuración: fichero application.properties en la carpeta /src/main/resources
 * Los ficheros de estilos (*.css) deben de situarse en la carpeta src/main/resources/static/css/. Crear las carpetas static y css si no existen.
 * Los ficheros JavaScript (*.js) deben de situarse en la carpeta src/main/resources/static/js/. Crear las carpetas static y js si no existen.
+
 ## Ejecutar tests (JUnit y Mockito)
 
 1. Botón derecho en el proyecto y Run as -> JUnit test
